@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="inputs\Day1.txt" />
+    <None Remove="inputs\Day2.txt" />
+    <None Remove="inputs\Day3.txt" />
+    <None Remove="inputs\Day4.txt" />
+    <None Remove="inputs\Day5.txt" />
+    <None Remove="inputs\Day6.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="inputs\**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
