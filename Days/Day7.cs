@@ -9,7 +9,7 @@
         while (!sr.EndOfStream)
         {
 
-            string line = sr.ReadLine();
+            string line = sr.ReadLine() ?? "";
             var splittedLine = line.Split(" ");
 
             var hand = new Hand(splittedLine[0], Convert.ToInt32(splittedLine[1]));

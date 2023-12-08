@@ -4,7 +4,7 @@
     {
         var sr = new StreamReader("inputs/day5.txt");
 
-        var seeds = sr.ReadLine()?.Split(": ")[1].Split(" ")?.Select(long.Parse)?.ToList();
+        var seeds = sr.ReadLine()?.Split(": ")[1].Split(" ")?.Select(long.Parse)?.ToList() ?? new List<long>();
 
         sr.ReadLine();
 
@@ -13,7 +13,7 @@
         while (!sr.EndOfStream)
         {
 
-            string line = sr.ReadLine();
+            string line = sr.ReadLine() ?? "";
             if(line == "")
             {
                 continue;
@@ -55,7 +55,7 @@
         int mapCount = 0;
         var maps = new List<List<MapEntry>>();
 
-        var seeds = sr.ReadLine()?.Split(": ")[1].Split(" ")?.Select(long.Parse)?.ToList();
+        var seeds = sr.ReadLine()?.Split(": ")[1].Split(" ")?.Select(long.Parse)?.ToList() ?? new List<long>();
         sr.ReadLine();
 
       
@@ -69,7 +69,7 @@
         while (!sr.EndOfStream)
         {
 
-            string line = sr.ReadLine();
+            string line = sr.ReadLine() ?? "";
             if (line == "")
             {
                 mapCount++;

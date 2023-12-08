@@ -7,8 +7,8 @@
         var times = new List<long>();
         var distances = new List<long>();
 
-        var tempTimes = sr.ReadLine().Split(":")[1].Split(" ").Where((t) => t != "");
-        var tempDistances = sr.ReadLine().Split(":")[1].Split(" ").Where((t) => t != "");
+        var tempTimes = (sr.ReadLine() ?? "").Split(":")[1].Split(" ").Where((t) => t != "");
+        var tempDistances = (sr.ReadLine() ?? "").Split(":")[1].Split(" ").Where((t) => t != "");
 
         if(partOne)
         {
