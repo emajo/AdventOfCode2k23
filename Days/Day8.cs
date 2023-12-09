@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-class Day8
+﻿class Day8
 {
     public static long Part(bool partOne = true)
     {

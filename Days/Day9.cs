@@ -1,5 +1,4 @@
-﻿
-class Day9
+﻿class Day9
 {
     public static long Part(bool partOne = true)
     {
@@ -18,16 +17,14 @@ class Day9
                 tot += values.Last();
                 var newValues = new List<long>();
                 for (int i = 1; i < values.Count; i++)
-                {
                     newValues.Add(values[i] - values[i - 1]);
-                }
+
                 values = newValues;
             }
 
         }
-
         sr.Close();
 
-        return (int)tot;
+        return tot;
     }
 }
