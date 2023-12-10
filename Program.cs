@@ -39,6 +39,10 @@ switch (day)
         Console.WriteLine(Day9.Part(true));
         Console.WriteLine(Day9.Part(false));
         break;
+    case "10":
+        Console.WriteLine(Day10.Part(true));
+        Console.WriteLine(Day10.Part(false));
+        break;
     default:
         Console.WriteLine("Default");
         break;
