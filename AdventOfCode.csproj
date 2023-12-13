@@ -9,8 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="inputs\Day1.txt" />
+    <None Remove="inputs\day1.txt" />
     <None Remove="inputs\day10.txt" />
+    <None Remove="inputs\day11.txt" />
+    <None Remove="inputs\day12.txt" />
+    <None Remove="inputs\day13.txt" />
     <None Remove="inputs\Day2.txt" />
     <None Remove="inputs\Day3.txt" />
     <None Remove="inputs\Day4.txt" />
