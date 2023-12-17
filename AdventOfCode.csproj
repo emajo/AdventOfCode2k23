@@ -14,6 +14,10 @@
     <None Remove="inputs\day11.txt" />
     <None Remove="inputs\day12.txt" />
     <None Remove="inputs\day13.txt" />
+    <None Remove="inputs\day14.txt" />
+    <None Remove="inputs\day15.txt" />
+    <None Remove="inputs\day16.txt" />
+    <None Remove="inputs\day17.txt" />
     <None Remove="inputs\Day2.txt" />
     <None Remove="inputs\Day3.txt" />
     <None Remove="inputs\Day4.txt" />
